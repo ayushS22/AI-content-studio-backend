@@ -57,7 +57,6 @@ app.use((req, res) => {
 // Error handling middleware
 app.use(errorHandler);
 
-// app.listen(PORT, () => {
-//   logger.info(`Server started on PORT ${PORT}`);
-// });
-module.exports = app;
+app.listen(PORT, () => {
+  logger.info(`Server started on PORT ${PORT}`);
+});
