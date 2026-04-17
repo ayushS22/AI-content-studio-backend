@@ -85,7 +85,7 @@ const HTTP_STATUS = {
   SERVICE_UNAVAILABLE: 503,
 };
 
-const JWT_EXPIRATION = "7d";
+const JWT_EXPIRATION = "70d";
 
 module.exports = {
   RESOLUTION_MAP,
